@@ -31,11 +31,6 @@ import aeminium.runtime.Task;
 public class BlockingTaskTests extends BaseTest {
 
 	@Test
-        public void testThatAlwaysFails() {
-		assertTrue(false);
-	}
-
-	@Test
 	public void singleTask() {
 		Runtime rt = getRuntime();
 		rt.init();
